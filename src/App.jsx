@@ -34,7 +34,7 @@ function App() {
       title: "Create your account",
       text:
         "Sign up in a few seconds and create your MoonTrade profile. No KYC, no documents, no awkward selfies with your passport.",
-      imageSrc: "/images/create-account.png",
+      imageSrc: "images/create-account.png",
       imageAlt: "MoonTrade profile screen with user avatar and ROI"
     },
     {
@@ -42,7 +42,7 @@ function App() {
       title: "Set up your profile",
       text:
         "Pick a nickname, choose an avatar, and set your trading preferences to build your profile.",
-      imageSrc: "/images/setup-acc.png",
+      imageSrc: "images/setup-acc.png",
       imageAlt: "MoonTrade profile edit screen with nickname and bio"
     },
     {
@@ -50,7 +50,7 @@ function App() {
       title: "Join tournaments or trade solo",
       text:
         "Jump into daily, weekly, and long-term challenges or practice in regular trading mode at your own pace.",
-      imageSrc: "/images/screen-tournaments.png",
+      imageSrc: "images/screen-tournaments.png",
       imageAlt: "MoonTrade tournaments screen with daily and weekly challenges"
     }
   ];
@@ -61,7 +61,7 @@ function App() {
       title: "Choose the trading mode",
       text:
         "Switch between regular trading and tournament mode, just like in the mobile app. Same interface, higher stakes — but still simulated.",
-      imageSrc: "/images/trading-mode.png",
+      imageSrc: "images/trading-mode.png",
       imageAlt: "MoonTrade events screen with different trading modes"
     },
     {
@@ -69,7 +69,7 @@ function App() {
       title: "Pick your market",
       text:
         "Select pairs like BTC/USDT, XRP/USDT, TRX/USDT and test your strategy in a realistic environment where orders actually move the book.",
-      imageSrc: "/images/screen-trade.png",
+      imageSrc: "images/screen-trade.png",
       imageAlt: "MoonTrade trading screen with BTCUSDT order book"
     },
     {
@@ -77,7 +77,7 @@ function App() {
       title: "Trade & climb the leaderboard",
       text:
         "Place orders, move the spread and liquidity inside the simulated order book, and watch your ROI push you toward the top of the leaderboard.",
-      imageSrc: "/images/screen-leaderboard.png",
+      imageSrc: "images/screen-leaderboard.png",
       imageAlt: "MoonTrade leaderboard screen with top players and ROI"
     }
   ];
@@ -124,7 +124,7 @@ function App() {
           <div className="header-left">
             <div className="logo-wrapper">
               <img
-                src="/images/moontrade-logo.png"
+                src="images/moontrade-logo.png"
                 alt="MoonTrade logo"
                 className="logo-image"
               />
@@ -177,21 +177,21 @@ Explore how the platform feels.
               <div className="hero-phone-strip">
                 <div className="phone-card phone-card-left">
                   <img
-                    src="/images/screen-profile.png"
+                    src="images/screen-profile.png"
                     alt="MoonTrade profile screen with ROI and avatar"
                     className="phone-image"
                   />
                 </div>
                 <div className="phone-card phone-card-center">
                   <img
-                    src="/images/screen-trade.png"
+                    src="images/screen-trade.png"
                     alt="MoonTrade trading interface with BTCUSDT order book"
                     className="phone-image"
                   />
                 </div>
                 <div className="phone-card phone-card-right">
                   <img
-                    src="/images/screen-leaderboard.png"
+                    src="images/screen-leaderboard.png"
                     alt="MoonTrade leaderboard with top players"
                     className="phone-image"
                   />
@@ -325,14 +325,14 @@ Explore how the platform feels.
             <div className="events-media">
               <div className="phone-card phone-card-events">
                 <img
-                  src="/images/screen-events.png"
+                  src="images/screen-events.png"
                   alt="MoonTrade events and tournaments screen"
                   className="phone-image"
                 />
               </div>
               <div className="phone-card phone-card-tournaments">
                 <img
-                  src="/images/screen-tournaments.png"
+                  src="images/screen-tournaments.png"
                   alt="MoonTrade tournaments list with daily and weekly challenges"
                   className="phone-image"
                 />
